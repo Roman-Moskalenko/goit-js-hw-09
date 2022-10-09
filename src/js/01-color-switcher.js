@@ -6,8 +6,9 @@ const body = document.querySelector ('body')
   startBtn.addEventListener('click',  onStartBtn)
   stopBtn.addEventListener('click', onStopBtn)
   stopBtn.disabled = true;
+  let timerId = null;
 function onStartBtn(){
-    timerId = setInterval(onBodyBackgroundColor, 1000)
+    timerId = setInterval(onBodyBackgroundColor, 1000);
     startBtn.disabled = true
     stopBtn.disabled = false
 }

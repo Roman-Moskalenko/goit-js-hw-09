@@ -4,33 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Countdown timer</title>
-    <link rel="stylesheet" href="css/common.css" />
-  </head>
-  <body>
-    <p><a href="index.html">Go back</a></p>
 
-    <input type="text" id="datetime-picker" />
-    <button type="button" data-start>Start</button>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <p><a href="index.html">Go back</a></p>
+    <h1 class="timer__title">Таймер обратного отсчета</h1>
+    
 
     <div class="timer">
       <div class="field">
         <span class="value" data-days>00</span>
         <span class="label">Days</span>
       </div>
+      <span class="colon">:</span>
+
       <div class="field">
         <span class="value" data-hours>00</span>
         <span class="label">Hours</span>
       </div>
+      <span class="colon">:</span>
+
       <div class="field">
         <span class="value" data-minutes>00</span>
         <span class="label">Minutes</span>
       </div>
+      <span class="colon">:</span>
+
       <div class="field">
         <span class="value" data-seconds>00</span>
         <span class="label">Seconds</span>
       </div>
-    </div>
 
+    </div>
+    <div class="group__timer">
+      
+      <input class="input__timer" type="text" id="datetime-picker" />
+      <button class="btn__timer" type="button" data-start>Start</button>
+    </div>
     <script src="js/02-timer.js" type="module"></script>
   </body>
 </html>

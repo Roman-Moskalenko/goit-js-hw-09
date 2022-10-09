@@ -39,3 +39,87 @@ color: aqua;
   background-color: red;
   color: yellow;
   }
+
+
+
+
+  /* 02-timer */
+.body{
+  font-family: 'Peralta', cursive;
+  background-image: url(../image/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+  .timer__title{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:yellow;
+  }
+  .input__timer{
+    justify-content: center;
+    color: #262626;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 4.7rem;
+    height: 4.9rem;
+    box-sizing: border-box;
+    background: #dfe3e5;
+    border: 1px solid #b8bfc7;
+    border-radius: 4.2rem;
+    padding: 0 1.1rem;
+    text-align: center;
+
+    
+  }
+  .btn__timer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #1d4965;
+    line-height: 5.6rem;
+    height: 6rem;
+    padding: 0 6rem;
+    background:#a5d1ef ;
+    border: 2px solid #a5d1ef;
+    border-radius: 4.2rem;
+    cursor: pointer;
+text-transform: uppercase;
+  }
+  .btn__timer:hover{
+    background:#bf19e0 ;
+    border: 2px solid transparent;
+  }
+  .group__timer{
+    display: grid;
+    row-gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+.timer{
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+
+}
+
+.value{
+  font-size: 128px;
+color:#6c0aebfd;
+}
+.field {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+  .colon{
+    color:#6c0aebfd;
+    padding-top: 14px;
+    font-size: 100px;
+  }
+  .label{
+    color:#2a0e77;
+    font-size: 32px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
